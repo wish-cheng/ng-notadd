@@ -19,7 +19,9 @@ import {
     MatNativeDateModule,
     MatTabsModule,
     MatStepperModule,
-    MatGridListModule
+    MatGridListModule,
+    MatProgressSpinnerModule,
+    MatSelectModule
 } from '@angular/material';
 
 import { NotaddSharedModule } from '@notadd/shared.module';
@@ -38,6 +40,7 @@ import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.compo
 import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { GridListComponent } from './grid-list/grid-list.component';
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 
 @NgModule({
     imports: [
@@ -59,6 +62,8 @@ import { GridListComponent } from './grid-list/grid-list.component';
         MatTabsModule,
         MatStepperModule,
         MatGridListModule,
+        MatProgressSpinnerModule,
+        MatSelectModule,
 
         FormsModule,
         ReactiveFormsModule,
@@ -79,7 +84,8 @@ import { GridListComponent } from './grid-list/grid-list.component';
         ExpansionPanelComponent,
         TabsComponent,
         StepperComponent,
-        GridListComponent
+        GridListComponent,
+        ProgressSpinnerComponent
     ]
 })
 export class BasicUiModule {

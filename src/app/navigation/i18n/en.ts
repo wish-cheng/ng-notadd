@@ -13,6 +13,7 @@ export const locale = {
             List: 'List',
             Badge: 'Badges',
             ProgressBar: 'ProgressBar',
+            ProgressSpinner: 'ProgressSpinner',
             ButtonToggle: 'ButtonToggle',
             Chip: 'Chips',
             ExpansionPanel: 'ExpansionPanel',

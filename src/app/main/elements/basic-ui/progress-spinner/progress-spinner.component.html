@@ -1,0 +1,51 @@
+<div class="element-progress-spinner page-layout card">
+
+    <h2 class="header">Progress Spinner Mode</h2>
+
+    <div class="content p-24">
+        <div class="h3"> <code>&lt;mat-progress-spinner&gt;</code> and <code>&lt;mat-spinner&gt;</code> are a circular
+            indicators of progress and activity.
+        </div>
+    </div>
+
+    <div class="content p-24" fxLayout="column nowrap" fxFlex="1 0 0%" fxLayoutGap="50px">
+        <div>
+            <div class="h3">Determinate</div>
+            <div class="secondary-text font-size-14">The default mode is "determinate". In this mode, the progress is
+                set via the `value` property, which can be a whole number between 0 and 100.</div>
+        </div>
+
+        <mat-spinner mode="determinate" value="{{determinate.value}}" color="{{determinate.color}}"></mat-spinner>
+
+        <div fxLayoutGap="10px">
+            <p>
+                <mat-form-field fxFlex="20">
+                    <mat-select placeholder="select color" [(ngModel)]="determinate.color">
+                        <mat-option value="primary">primary</mat-option>
+                        <mat-option value="accent">accent</mat-option>
+                        <mat-option value="warn">warn</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </p>
+            <button mat-raised-button color="primary" (click)="setValue(50)">设置为50%</button>
+            <button mat-raised-button color="primary" (click)="setValue(90)">设置为90%</button>
+            <button mat-raised-button color="accent" (click)="setValue('loading')">模拟loading</button>
+        </div>
+    </div>
+
+    <div class="content p-24" fxLayout="column nowrap" fxFlex="1 0 0%" fxLayoutGap="50px">
+        <div>
+            <div class="h3">Indeterminate</div>
+            <div class="secondary-text font-size-14">
+                Indicates that something is happening without conveying a discrete progress. <br>
+                In "indeterminate" mode, the value property is ignored.
+            </div>
+        </div>
+        <mat-progress-spinner mode="indeterminate" color="primary"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" color="accent"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" color="warn">
+        </mat-progress-spinner>
+
+    </div>
+
+</div>

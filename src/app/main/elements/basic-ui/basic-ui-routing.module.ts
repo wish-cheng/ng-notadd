@@ -13,6 +13,7 @@ import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.compo
 import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { GridListComponent } from './grid-list/grid-list.component';
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 
 const routes: Routes = [
     {
@@ -65,6 +66,14 @@ const routes: Routes = [
         component: ProgressBarComponent,
         data: {
             title: '进度条',
+            hasContentHeader: true
+        }
+    },
+    {
+        path: 'progress-spinner',
+        component: ProgressSpinnerComponent,
+        data: {
+            title: '进度圈',
             hasContentHeader: true
         }
     },

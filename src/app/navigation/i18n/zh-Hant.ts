@@ -13,6 +13,7 @@ export const locale = {
             List: '列表',
             Badge: '徽章',
             ProgressBar: '進度條',
+            ProgressSpinner: '進度圈',
             ButtonToggle: '開關按鍵',
             Chip: '標籤',
             ExpansionPanel: '擴展面板',

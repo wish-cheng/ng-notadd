@@ -86,6 +86,13 @@ export const navigation: Array<NotaddNavigationItem> = [
                         url: '/elements/basic-ui/progress-bar'
                     },
                     {
+                        id: 'progress-spinner',
+                        title: '进度圈',
+                        i18n: 'Navigation.ProgressSpinner',
+                        type: 'item',
+                        url: '/elements/basic-ui/progress-spinner'
+                    },
+                    {
                         id: 'button-toggle',
                         title: '开关按钮',
                         i18n: 'Navigation.ButtonToggle',
