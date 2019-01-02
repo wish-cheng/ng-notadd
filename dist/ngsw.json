@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "index": "/ng-notadd/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-notadd/favicon.ico",
+        "/ng-notadd/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-notadd/assets/data/world.json",
+        "/ng-notadd/assets/icon-fonts/notadd/iconfont.eot",
+        "/ng-notadd/assets/icon-fonts/notadd/iconfont.svg",
+        "/ng-notadd/assets/icon-fonts/notadd/iconfont.ttf",
+        "/ng-notadd/assets/icon-fonts/notadd/iconfont.woff",
+        "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.eot",
+        "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.svg",
+        "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.ttf",
+        "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.woff",
+        "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.woff2",
+        "/ng-notadd/assets/images/avatars/tianhun.jpg",
+        "/ng-notadd/assets/images/bg_lockscreen.jpg",
+        "/ng-notadd/assets/images/bg_login.jpg",
+        "/ng-notadd/assets/images/icons/icon-128x128.png",
+        "/ng-notadd/assets/images/icons/icon-152x152.png",
+        "/ng-notadd/assets/images/icons/icon-256x256.png",
+        "/ng-notadd/assets/images/icons/icon-512x512.png",
+        "/ng-notadd/assets/mdi.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ng-notadd/assets/data/world.json": "d56cd6284488b47258193fd52b42e7cf04c7dfe6",
+    "/ng-notadd/assets/icon-fonts/notadd/iconfont.eot": "23cc156cc8c90b308235fef1997a039963b0c670",
+    "/ng-notadd/assets/icon-fonts/notadd/iconfont.svg": "62ef5aecd6ab523d56b1942ff4dde2fc22f88db4",
+    "/ng-notadd/assets/icon-fonts/notadd/iconfont.ttf": "c2c7f623d717fb2949453bca7be03159db9e554a",
+    "/ng-notadd/assets/icon-fonts/notadd/iconfont.woff": "34fad13d6731214e158d099fab321945de87faf8",
+    "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.eot": "5d58a11d6de39f76e43a93fb1ef70e7bd78032a2",
+    "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.svg": "c3b440c8a72eb2816bc6c52fb3d6bbf878b6fe23",
+    "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.ttf": "9916e3dbc3990e3073cf5a2cb4c2e958273b7532",
+    "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.woff": "5b909f99b700b5289e9af6f750405152b06e32f2",
+    "/ng-notadd/assets/icon-fonts/weather/weathericons-regular-webfont.woff2": "718dd740e8340888352129e592fed085409e891e",
+    "/ng-notadd/assets/images/avatars/tianhun.jpg": "f9f4816ffc774c3d9b5ed218fdb9e26a5d65accf",
+    "/ng-notadd/assets/images/bg_lockscreen.jpg": "830f05417ce36f4058398533321c00b6d84e9584",
+    "/ng-notadd/assets/images/bg_login.jpg": "02d6add678c527faaf942b48ffd5361f61c9493e",
+    "/ng-notadd/assets/images/icons/icon-128x128.png": "caefd1fbc357e034d32b59d7efeeefd76a086329",
+    "/ng-notadd/assets/images/icons/icon-152x152.png": "2b209ca943070d0f5e0321bb64d189564cd59b96",
+    "/ng-notadd/assets/images/icons/icon-256x256.png": "36c2b63076a35f279119316b97c0057fd8368002",
+    "/ng-notadd/assets/images/icons/icon-512x512.png": "c464bcfa60a32f151d8318e105a3e3499eedc715",
+    "/ng-notadd/assets/mdi.svg": "0b65ab8752c89ab3b4dbd5e9696ac065043a8e5e",
+    "/ng-notadd/favicon.ico": "7b7e610eda98d061f0ebf6b7defec1a8d60bfd1c",
+    "/ng-notadd/index.html": "31cbe7c648a440a401be733a788ff2f11e669931"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
