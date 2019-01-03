@@ -1,7 +1,7 @@
 {
-    "name": "ng-notadd",
-    "short_name": "ng-notadd",
-    "description": "ng-notadd",
+    "name": "PWA Angular",
+    "short_name": "PWA Angular",
+    "description": "PWA Angular",
     "icons": [{
       "src": "assets/images/icons/icon-128x128.png",
       "sizes": "128x128",
@@ -25,4 +25,3 @@
     "background_color": "#ffffff",
     "theme_color": "#00abff"
 }
-   
