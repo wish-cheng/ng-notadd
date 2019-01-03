@@ -7,6 +7,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { NgForageModule, NgForageConfig, Driver } from 'ngforage';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import 'hammerjs';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { NotaddModule } from '@notadd/notadd.module';
 import { NotaddMatIconsModule } from '@notadd/mat-icons/mat-icons.module';
@@ -20,6 +21,7 @@ import { GraphQLModule } from './graphql/graphql.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { environment } from 'environments/environment.prod';
 
 @NgModule({
     declarations: [
@@ -33,6 +35,8 @@ import { AppComponent } from './app.component';
 
         TranslateModule.forRoot(),
         NgxPermissionsModule.forRoot(),
+
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 
         /* @notadd modules */
         NotaddModule.forRoot(notaddConfig),
